@@ -7,7 +7,7 @@
 
 Title: index.html
 
-Use: This will be a home page / about page
+Use: This will be a projects page describing projects I have been a part of.
 
 Author: Brandi Whitmore
 
@@ -20,35 +20,38 @@ Tested: Brandi Whitmore 2/6/2023
 -->
     <meta charset="utf-8">
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
     <title>Projects Page</title>
     <h1>
         Projects
     </h1>
 </head>
+
+<nav>
+    <div id="wrap">
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="reflection.html">Reflection</a>
+            <ul>
+                <li><a href="#link1">Link 1</a></li>
+                <li><a href="#link2">Link 2</a></li>
+                <li><a href="#link3">Link 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#contact.html">Contact</a></li>
+    </ul>
+    </div>
+</nav>
+
 <body>
 
 
     <footer>
-        <p>Author: Brandi Whitmore
+        <p>Author: Brandi Whitmore</p>
         <a href="mailto:brw5tf@umsystem.edu">brw5tf@umsystem.edu</a>
-        <br>
-        © 2023 Brandi Whitmore. All rights reserved.
-        </p>
+        <p> © 2023 Brandi Whitmore. All rights reserved. </p>
     </footer>
 </body>
-<nav>
-    <ul class="hoz">
-        <li class="option"><a href="index.html">Home</a></li>
-        <li class="option"><a href="about.html">About</a></li>
-        <li class="option"><a href="#project.html">Projects</a></li>
-            <ul class="drop">
-                <a href="javascript:void(0)" class="dropdn">Menu</a>
-                <div class="dropop">
-                <li><a href="#.html"></a>Link 1 </a></li>
-                <li><a href="#.html"></a>Link 2 </a></li>
-                <li><a href="#.html"></a>Link 3 </a></li>
-                </div>
-            </ul>
-    </ul>
-</nav>
 </html>

@@ -1,52 +1,93 @@
-.hoz {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  .option {
-    float: left;
-  }
-  
-  .option a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
+* {
+  box-sizing: border-box;
+}
 
-  li.dropdn {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdn {
-    display: inline;
-    position: relative;
-  }
+body {margin: 0;}
 
-  li.drop {
-    display: inline-block;
-  }
-  
-  .dropop {
-    display: none;
-    position: relative;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropop a {
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+h1 {padding-top: 45px;}
 
-  .drop:hover .dropop {
-    display: block;
-  }
+#wrap {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  z-index: 99;
+  background-color: #757575;
+  position: fixed;
+  top: 0;
+  padding-bottom: 30
+px;
+}
+
+#resumebut {
+  width:100px;
+  padding: 10px;
+  border: 10px white;
+  margin: 0;
+  background-color: #757575;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: flex;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #757575;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  height: auto;
+  width: 135px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #757575;
+}
+.navbar a {
+  padding: 16px;
+  border-left: 1px solid #ccc9c9;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navbar li:hover,
+a:hover {
+  background-color: #757575;
+}
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navbar li:hover ul {
+  display: block;
+}
+.navbar li ul li {
+  background-color: #757575;
+}
+.navbar li ul li a {
+  border-top: 1px solid white;
+}
+.navbar li ul li a:hover {
+  background-color: #a3a1a1;
+}
+
+/*625px until weird*/
