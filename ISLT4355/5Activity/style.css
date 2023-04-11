@@ -32,32 +32,6 @@ p.letter::first-letter {
     width: 100%;
     position: static;
     line-height: 1px;
-    align-self: center;
-    height: auto;
-}
-
-#footer, p{
-    border: 0px;
-    padding-top: 10px;
-    width: fit-content;
-    height: fit-content;
-    
-}
-
-#e{
-    height: 10px;
-    color: rgb(31, 170, 216);
-    align-content: center;
-}
-
-img{
-    width: 20px;
-    height: 20px;
-}
-
-#email{
-    height: auto;
-    align-items: center;
 }
 
 @media screen and (max-width: 640px) {
