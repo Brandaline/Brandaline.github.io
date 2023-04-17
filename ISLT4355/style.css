@@ -56,22 +56,22 @@ p.letter::first-letter {
     align-content: center;
 }
 
-img{
-    width: 20px;
-    height: 20px;
-}
-
 #email{
+    width: 30px;
+    height: 30px;
     height: auto;
     align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+#email:hover{
+    transform:scale(1.5);
 }
 
 #tagh1{
     size: 100;
     padding-top: 85px;
 }
-
-
 
 @media screen and (max-width: 700px) {
     #footer{
