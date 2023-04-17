@@ -32,7 +32,6 @@ p.letter::first-letter {
     width: 100%;
     position: static;
     line-height: 1px;
-    align-self: center;
     height: auto;
 }
 
@@ -60,28 +59,45 @@ img{
     align-items: center;
 }
 
-@media screen and (max-width: 640px) {
-    #home{
-        text-align: center;
-        font-size: 200%;
-    }
+#home{
+    size: 100;
+    padding-top: 85px;
+}
 
-    #welcstate{
-        text-align: center;
-        font-size: 150%;
-    }
-
+@media screen and (max-width: 700px) {
     #footer{
-        text-align: center;
         bottom: 15px;
-        position: static;
         width: 100%;
+        line-height: 1px;
+        position: static;
+        text-align: center;
+        align-items: center;
+        height: auto;
+    }
+
+    #home{
+        padding-top: 50px;
+        text-align: center;
+        size: 200%;
     }
 
     .phome{
         padding: 10px;
-        text-align: center;
         font-size: 125%;
         line-height: 1.5;
+        text-align: center;
     }
+
+    #welcstate{
+        text-align: center;
+    }
+
+    #aboutmepg{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
 }
