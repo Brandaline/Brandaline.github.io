@@ -147,6 +147,15 @@ p.letter::first-letter {
 
     #footer{
         font-size: small;
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
     }
 }
 
