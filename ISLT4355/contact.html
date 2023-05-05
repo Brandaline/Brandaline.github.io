@@ -1,0 +1,74 @@
+<!-- This code was written by Brandi Whitmore as a Contact Page-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<!--
+
+Title: contact.html
+
+Use: This will be a home page / about page
+
+Author: Brandi Whitmore
+
+School/Term: University of Missouri Spring 2023 
+
+Developed: Brandi Whitmore 4/19/2023
+
+Tested: Brandi Whitmore 4/19/2023
+
+-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+</head>
+
+<body>
+<nav>
+    <div id="wrap">
+    <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a>
+            <ul>
+                <li><a href="project.html#pro1">Project 1</a></li>
+                <li><a href="project.html#pro2">Project 2</a></li>
+                <li><a href="project.html#pro3">Project 3</a></li>
+            </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+</nav>
+    <h1 id="tagh1">Contact Me</h1>
+    <form  id= "form" action="mailto:brandirosewhitmore@gmail.com"
+    method="POST"
+    enctype="text/plain">
+        <label for="fname"> First Name: </label><br>
+        <input type="text" id="fname" name="First-Name" placeholder="Your First Name.."><br>
+        
+        <label for="lname"> Last Name: </label><br>
+        <input type="text" id="lname" name="Last-Name" placeholder="Your Last Name.."><br>
+
+        <label for="ema"> Email: </label><br>
+        <input type="email" id="ema" name="E-mail" placeholder="Your Email.."><br>
+        
+        <label for="message">Message: </label><br> 
+        <textarea id='message' name="Message" placeholder="Leave a message for me here.."></textarea><br> 
+        
+        <button type="submit" value="Submit">Send in Email</button>
+        <button type="reset" value="Reset">Reset Form</button>
+    </form>  
+
+
+    <footer id="footer">
+        <p>Author: Brandi Whitmore</p>
+        <p><img src="phoneicon.png" alt="Phone Icon" id="phone"> 816-345-5655</p><!-- cite="<a target="_blank" href="https://icons8.com/icon/ngt9Bn6DsQnB/google-pixel-6">Google Pixel 6</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>"-->
+        <p><img src="mailicon.png" alt="E-mail Icon" id="email"><a href="mailto:brw5tf@umsystem.edu" id="e"> brw5tf@umsystem.edu</a></p><!-- cite="https://icons8.com/icons/set/email"-->
+        <p>© 2023 Brandi Whitmore. All rights reserved.</p>
+    </footer>
+</body>
+</html>
