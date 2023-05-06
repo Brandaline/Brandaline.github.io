@@ -59,8 +59,9 @@ Tested: Brandi Whitmore 4/19/2023
         <label for="message">Message: </label><br> 
         <textarea id='message' name="Message" placeholder="Leave a message for me here.."></textarea><br> 
         
-        <button type="submit" value="Submit">Send in Email</button>
+        <button type="submit" value="Submit" onclick="document.getElementById('date/time').innerHTML = Date()">Send in Email</button>
         <button type="reset" value="Reset">Reset Form</button>
+        <p id="date/time"></p>
     </form>  
 
 
